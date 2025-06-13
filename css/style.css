@@ -77,29 +77,39 @@ body {
   font-family:'Times New Roman', Times, serif;
 }
 
-/* Responsive */
 @media screen and (max-width: 768px) {
   .cv-container {
     flex-direction: column;
+    width: 100%;
+    padding: 10px; /* Ajouté */
   }
 
-  .left-section, .right-section {
+  .left-section,
+  .right-section {
     width: 100%;
-    padding: 15px;
+    padding: 15px; /* Ajouté */
+    box-sizing: border-box;
   }
 
   .left-section .photo img {
-    width: 80px;
+    max-width: 100%;
     height: auto;
     margin: 0 auto 15px;
     display: block;
   }
 
   .right-section h1 {
-    font-size: 22px;
+    font-size: 20px;
   }
 
   .right-section h2 {
     font-size: 16px;
+  }
+
+  .right-section p,
+  .left-section p,
+  .left-section ul {
+    font-size: 14px;
+    line-height: 1.6;
   }
 }
