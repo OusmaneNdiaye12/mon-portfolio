@@ -53,6 +53,7 @@ body {
 .right-section {
   width: 70%;
   padding: 20px;
+  padding-top: 4%;
 }
 
 .right-section h1, .right-section h2 {
@@ -74,7 +75,7 @@ body {
 
 .experience div, .education div {
   margin-bottom: 15px;
-  font-family:'Times New Roman', Times, serif;
+  font-family:sans-serif
 }
 
 @media screen and (max-width: 768px) {
@@ -113,3 +114,4 @@ body {
     line-height: 1.6;
   }
 }
+
